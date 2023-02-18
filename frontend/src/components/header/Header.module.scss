@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.title {
+    color: $VeryLightGray;
+    letter-spacing: 0.75rem;
+    line-height: 1rem;
+}
+
+.icon {
+    cursor: pointer;
+    margin-bottom: 10px;
+}

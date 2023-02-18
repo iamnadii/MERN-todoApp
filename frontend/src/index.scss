@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import './variables';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+html {
+    font-size: 18px;
+}
+.bg-image {
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+.light-bg-color {
+    background-color: $VeryLightGray;
+}
+.dark-bg-color {
+    background-color: $VeryDarkBlue;
+}
+.light-bg-img {
+    background-image: url('./assets/images/bg-desktop-light.jpg');
+}
+.dark-bg-img {
+    background-image: url('./assets/images/bg-desktop-dark.jpg');
+}
+.content {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

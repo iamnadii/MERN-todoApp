@@ -1,0 +1,67 @@
+@import '../../variables';
+
+.todo_input {
+    padding: 1.25rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -7px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    input {
+        border: none;
+        background: transparent;
+        font-size: 1rem;
+        width: 470px;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            font-size: 1rem;
+        }
+    }
+    span {
+        label {
+            width: 22px;
+            height: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            border-radius: 50%;
+            border: 1px solid $CheckLabel;
+            margin-bottom: 3.5px;
+            cursor: pointer;
+        }
+    }
+    div {
+        margin-bottom: 5px;
+    }
+}
+.todo_input_light {
+    background-color: $VeryLightGray;
+    input {
+        color: $VeryDarkBlue;
+    }
+    span {
+        label {
+            background-color: $VeryLightGray;
+        }
+    }
+}
+.todo_input_dark {
+    background-color: $VeryDarkDesaturatedBlue;
+    input {
+        color: $VeryLightGray;
+    }
+    span {
+        label {
+            background-color: $VeryDarkDesaturatedBlue;
+        }
+    }
+}
+.check_icon_light {
+    color: $VeryDarkDesaturatedBlue;
+}
+.check_icon_dark {
+    color: $VeryLightGray;
+}
